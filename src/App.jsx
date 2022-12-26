@@ -11,7 +11,7 @@ function App() {
       <Navigation />
 
       <Routes>
-        <Route path="/" element={<h1>OVDJE IDE LISTING</h1>} />
+        <Route path="/" element={<h1 style={{marginTop: '150px', textAlign: 'center' }}>Ovdje idu OGLASI</h1>} />
         <Route path="/prijava" element={<Registration />} />
 			  <Route path="*" element={<h1>NOT FOUND</h1>} />
       </Routes>
